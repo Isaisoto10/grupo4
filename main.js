@@ -27,7 +27,7 @@ listaJuegos.forEach(x => {
     columna.classList.add("col-md-4")
     let card = document.createElement("div")
     card.classList.add("card")
-
+    //進撃 の 巨人
     //se crea la imagen 
     let img = document.createElement("img")
     img.src = x.portada
