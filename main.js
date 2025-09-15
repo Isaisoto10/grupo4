@@ -11,7 +11,7 @@ class Juego {
     }
 
 }
-
+    
 let listaJuegos = [
     new Juego("nose", 10, "nose", 10000, "https://tse2.mm.bing.net/th/id/OIP.jK4f74zzSSSsvp0ZIbqZeAHaJl?pid=Api&P=0&h=180"),
     new Juego("Minecraft", 10, "nose2", 100, "https://i.pinimg.com/736x/f5/60/cc/f560cc7d9a907ae6e4bc5d914a844889.jpg"),
