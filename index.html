@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<script src="proyecto.js"></script>
 </head>
 <body>
-    <p>Lorem, ipsum dolor.</p>
-    <h1>hola</h1>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <select name="" class="form-control" id="propiedad">
+                    <option value="todo">todos los productos</option>
+                    <option value="marca">marca</option>
+                    <option value="nombre">nombre</option>
+                    <option value="precio">precio($)</option>
+                </select>
+            </div>
+            <div class="col-md-5">
+                <input class="form-control" type="text" name="" id="valor" placeholder="valor del filtro a aplicar">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="buttonfilter">filtrar</button>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
