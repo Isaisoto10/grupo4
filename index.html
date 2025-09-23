@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+
 </head>
 
 <body>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <select name="" class="form-control" id="propiedad">
+                    <option value="todo">todos los productos</option>
+                    <option value="marca">marca</option>
+                    <option value="nombre">nombre</option>
+                    <option value="precio">precio($)</option>
+                </select>
+            </div>
+            <div class="col-md-5">
+                <input class="form-control" type="text" name="" id="valor" placeholder="valor del filtro a aplicar">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="buttonfilter">filtrar</button>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid"></div>
     <div class="row">
         <div class="col-md-2">
@@ -21,7 +41,7 @@
     </div>
 
     <script src="main.js"></script>
-
+    <script src="proyecto.js"></script>
     <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
