@@ -13,9 +13,9 @@ class Juego {
 }
     
 let listaJuegos = [
-    new Juego("nose", 10, "nose", 10000, "https://tse2.mm.bing.net/th/id/OIP.jK4f74zzSSSsvp0ZIbqZeAHaJl?pid=Api&P=0&h=180"),
-    new Juego("Minecraft", 10, "nose2", 100, "https://i.pinimg.com/736x/f5/60/cc/f560cc7d9a907ae6e4bc5d914a844889.jpg"),
-    new Juego("Call of Duty", 10, "nose2", 150, "https://tse3.mm.bing.net/th/id/OIP.VC85W4rilsr2_xqC_9DdKAHaJU?pid=Api&P=0&h=180")
+    new Juego("nose", 10, "ATP", 10000, "https://tse2.mm.bing.net/th/id/OIP.jK4f74zzSSSsvp0ZIbqZeAHaJl?pid=Api&P=0&h=180"),
+    new Juego("Minecraft", 10, "pg15", 100, "https://i.pinimg.com/736x/f5/60/cc/f560cc7d9a907ae6e4bc5d914a844889.jpg"),
+    new Juego("Call of Duty", 10, "pg15", 150, "https://tse3.mm.bing.net/th/id/OIP.VC85W4rilsr2_xqC_9DdKAHaJU?pid=Api&P=0&h=180")
 ]
 let carrito = []
 
